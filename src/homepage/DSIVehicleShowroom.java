@@ -14,12 +14,11 @@ import java.util.List;
  */
 public class DSIVehicleShowroom {
 
-    private int expectedVisitors;
+    private int expectedVisitors = 30;
     private List<Vehicle> vehicleList;
 
     public DSIVehicleShowroom() {
         super();
-        expectedVisitors = 30;
         setVehicleList(new ArrayList<>());
     }
 

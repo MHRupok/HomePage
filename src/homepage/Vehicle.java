@@ -12,27 +12,23 @@ package homepage;
 public abstract class Vehicle {
 	
 	protected VehicleType vehicleType;
-	protected String modelNumber;
-	
+	protected String modelNumber;	
 	protected EngineType engineType;
 	protected int enginePower;
-	protected int tireSize;
-        
-        
+	protected int tireSize; 
+               
 	
 	public Vehicle(VehicleType vehicleType, String modelNumber, EngineType engineType, int enginePower, int tireSize) {
 		super();
 		this.vehicleType = vehicleType;
 		this.modelNumber = modelNumber;
-		this.engineType = engineType;
+		this.engineType  = engineType;
 		this.enginePower = enginePower;
-		this.tireSize = tireSize;
+		this.tireSize    = tireSize;
 	}
-	
-	
-	public abstract String getDetails();
-	
-	
+        
+        public abstract String getDetails();  // Return a String with vehicle details	
+
 	public VehicleType getVehicleType() {
 		return vehicleType;
 	}

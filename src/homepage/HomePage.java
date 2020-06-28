@@ -37,7 +37,7 @@ public class HomePage {
                 System.out.println("| 1. Continue                  |");
                 System.out.println("| 2. Exit                      |");
                 System.out.println("+------------------------------+\n");
-                
+
                 boolean isOptionConfirmed = true;
                 int confirmNextStep = 0;
 
